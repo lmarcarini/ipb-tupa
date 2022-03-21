@@ -1,7 +1,9 @@
+import Topmenu from "../components/topmenu";
+
 export default function Layout({children}: React.PropsWithChildren<{}>) {
   return (
       <>
-      <div>Create Top Menu</div>
+      <Topmenu/>
     <div>
         {children}
     </div>
