@@ -1,15 +1,31 @@
 import { Navbar, Nav, Container } from "react-bootstrap";
 import Image from "next/image";
-import { topmenuStyle, menuitemStyle } from "./styles";
+import { scrolledmenuStyle, topmenuStyle, menuitemStyle } from "./styles";
 import styles from "./Topmenu.module.css";
 import Link from "next/link";
 import MediaBar from "../MediaBar";
+import { useEffect, useState } from "react";
 
 type Props = {};
 
 const Topmenu = (props: Props) => {
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const handleScroll = () => {
+    const position = window.pageYOffset;
+    setScrollPosition(position);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll, { passive: true });
+  }, []);
+
   return (
-    <Navbar className="topmenu" style={topmenuStyle} expand="lg">
+    <Navbar
+      className="topmenu"
+      style={scrollPosition > 10 ? scrolledmenuStyle : topmenuStyle}
+      expand="lg"
+      fixed="top"
+    >
       <Container>
         <Navbar.Brand>
           <Image

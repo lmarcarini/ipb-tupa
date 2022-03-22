@@ -6,7 +6,7 @@ type Props = {};
 const BannerCarousel = (props: Props) => {
   const ratio = {
     width: "1000",
-    height: "600",
+    height: "400",
   };
   return (
     <Carousel className="mb-5">

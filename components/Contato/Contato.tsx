@@ -14,7 +14,7 @@ const Contato = (props: Props) => {
         </Col>
         <Col>
           {" "}
-          <h5>DÍZIMOS E/OU OFERTAS</h5>
+          <b>DÍZIMOS E/OU OFERTAS</b>
           <p>
             Igreja Presbiteriana de Tupã
             <br />
