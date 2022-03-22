@@ -4,3 +4,7 @@
   color: white !important;
   font-family: Montserrat;
 }
+
+#navbarScroll {
+  background-color: rgba(13, 81, 49, 1);
+}

@@ -87,7 +87,6 @@ const Topmenu = (props: Props) => {
                 SOBRE
               </Nav.Link>
             </Link>
-
             <MediaBar />
           </Nav>
         </Navbar.Collapse>
