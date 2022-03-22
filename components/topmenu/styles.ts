@@ -1,5 +1,5 @@
 export const topmenuStyle={
-    backgroundColor: "rgba(13, 81, 49, 0.8)"
+    backgroundColor: "rgba(13, 81, 49, 0.9)"
 }
 export const menuitemStyle={
     color: "white"
