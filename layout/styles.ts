@@ -1,6 +1,10 @@
 export const appStyle = `body{
     background-color: "white",
-    color: "black"}`
+    color: "black"}
+    .main{
+        margin-top: 133px
+    }
+    `
 
 
 /*

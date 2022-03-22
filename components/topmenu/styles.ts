@@ -1,5 +1,5 @@
 export const topmenuStyle={
-    backgroundImage: "linear-gradient(#0D5131,#10603b,#116a40,white)"
+    backgroundColor: "rgba(13, 81, 49, 0.8)"
 }
 export const menuitemStyle={
     color: "white"
