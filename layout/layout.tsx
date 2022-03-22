@@ -7,9 +7,8 @@ export default function Layout({children}: React.PropsWithChildren<{}>) {
       <Topmenu/>
     <div>
         {children}
-        <style jsx global>{
-          `body{background-color: #18191A}`
-          }
+        <style jsx global>
+          {appStyle}
       </style>
     </div>
     </>

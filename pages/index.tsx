@@ -1,9 +1,9 @@
 import type { NextPage } from 'next'
 import {Container} from 'react-bootstrap'
-import Head from 'next/head'
 import BannerCarousel from '../components/BannerCarousel'
 import Programacao from '../components/programacao'
 import Local from '../components/local'
+import Contato from '../components/Contato'
 
 const Home: NextPage = () => {
   return (
@@ -17,6 +17,9 @@ const Home: NextPage = () => {
         </div>
         <div id="local">
          <Local/>
+        </div>
+        <div id="contato">
+         <Contato/>
         </div>
       </Container>
     </>

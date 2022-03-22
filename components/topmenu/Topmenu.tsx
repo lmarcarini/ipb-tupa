@@ -10,22 +10,22 @@ const Topmenu = (props: Props) => {
     <Navbar className="topmenu" style={topmenuStyle} expand="sm">
         <Container>
             <Navbar.Brand>
-                <Image src='/ipb_brand.jpg' height='128' width='128'/>
+                <Image src='/ipb_brand.jpg' height='100' width='100'/>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll"/>
             <Navbar.Collapse id='navbarScroll'>
                 <Nav  className="ms-auto me-auto">
-                    <Nav.Link className="h3" href="/" style={menuitemStyle}>
-                        Início
+                    <Nav.Link className="h4" href="/" style={menuitemStyle}>
+                        INÍCIO
                     </Nav.Link>
-                    <Nav.Link className="h3" href="/#programacao" style={menuitemStyle}>
-                        Programação
+                    <Nav.Link className="h4" href="/#programacao" style={menuitemStyle}>
+                        PROGRAMAÇÃO
                     </Nav.Link>
-                    <Nav.Link className="h3" href="/#local" style={menuitemStyle}>
-                        Local
+                    <Nav.Link className="h4" href="/#local" style={menuitemStyle}>
+                        LOCAL
                     </Nav.Link>
-                    <Nav.Link className="h3" href="/#contato" style={menuitemStyle}>
-                        Contato
+                    <Nav.Link className="h4" href="/#contato" style={menuitemStyle}>
+                        CONTATO
                     </Nav.Link>
                 </Nav>
             </Navbar.Collapse>
