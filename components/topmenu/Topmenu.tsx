@@ -12,7 +12,12 @@ const Topmenu = (props: Props) => {
     <Navbar className="topmenu" style={topmenuStyle} expand="md">
       <Container>
         <Navbar.Brand>
-          <Image src="/logo.png" height="100" width="100" alt="IPB TUPÃ" />
+          <Image
+            src="/logoiptupa2021_Prancheta 1.png"
+            height="128"
+            width="128"
+            alt="IPB TUPÃ"
+          />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
