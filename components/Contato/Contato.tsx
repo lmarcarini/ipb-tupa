@@ -7,7 +7,8 @@ const Contato = (props: Props) => {
   return (  
     <Container className="mt-5">
         <h1 className={styles.header+" text-center"}>Contato</h1>
-        <p className="ms-5 mt-3">Tel.: (14) 99660-4549</p>
+        <hr/>
+        <p className="ms-5">Tel.: (14) 99660-4549</p>
     </Container>
     
   )

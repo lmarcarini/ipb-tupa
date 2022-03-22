@@ -12,14 +12,16 @@ const Local = (props: Props) => {
           <h1 className={styles.header+" text-center"}>
             Local
         </h1>
+        <hr/>
           </Row>
-        <Row className="mt-3" >
-            <Col md={6}> {/*TODO:add link to image*/}
-                <Image src="/mapa.jpg" alt="mapa" layout="responsive" width="320" height="320"/>
+        <Row>
+            <Col sm={12}>
+                <p className="text-center">R. Paiaquas, 734, Centro, Tupã/SP</p>
             </Col>
-            <Col>
-                <p>R. Paiaquas, 734, Centro, Tupã/SP</p>
+            <Col sm={12}> {/*TODO:add link to image*/}
+                <Image src="/mapa.jpg" alt="mapa" layout="responsive" width="320" height="130"/>
             </Col>
+
         </Row>
       </Container>
   )

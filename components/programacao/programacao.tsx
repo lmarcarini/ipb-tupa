@@ -1,5 +1,5 @@
 import styles from "./Programacao.module.css"
-import {Container} from "react-bootstrap"
+import {Container, Row, Col} from "react-bootstrap"
 
 type Props = {}
 
@@ -9,11 +9,18 @@ const Programacao = (props: Props) => {
     <h1 className={styles.header+" text-center"}>
       Programação
     </h1>
-    <div className="ms-5 mt-3">
-        <p>Culto: Domingo - 19:00</p>
-        <p>Escola Bíblica Dominical: Domingo - 9:00</p>
-        <p>Culto de oração: Terça - 20:00</p>
-    </div>
+    <hr/>
+    <Row className="ms-5">
+      <Col>
+        <b>Domingo</b>
+        <p>09:00 Escola Bíblica Dominical</p>
+        <p>19:00 Culto</p>
+      </Col>
+      <Col>
+        <b>Terça</b>
+        <p>20:00 Culto de Oração</p>
+      </Col>
+    </Row>
     </Container>
   )
 }
