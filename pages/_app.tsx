@@ -1,19 +1,21 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import type { AppProps } from 'next/app'
+import type { AppProps } from "next/app";
 import Head from "next/head";
-import Layout from '../layout/layout'
+import Layout from "../layout/layout";
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <>
-        <Head>
+  return (
+    <>
+      <Head>
         <title>IPB - Tupã</title>
         <meta name="IPB-Tupã" content="Site da Igreja Prebiteriana de Tupã" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/icon.ico" />
       </Head>
       <Layout>
-          <Component {...pageProps} />
+        <Component {...pageProps} />
       </Layout>
-  </>
+    </>
+  );
 }
 
-export default MyApp
+export default MyApp;
