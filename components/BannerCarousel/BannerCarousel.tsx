@@ -22,7 +22,7 @@ const BannerCarousel = (props: Props) => {
       </Carousel.Item>
       <Carousel.Item>
         <Image
-          src="/carousel_images/image_2.png"
+          src="/carousel_images/image_2.jpg"
           alt="É natal"
           layout="responsive"
           width={ratio.width}
@@ -31,7 +31,7 @@ const BannerCarousel = (props: Props) => {
       </Carousel.Item>
       <Carousel.Item>
         <Image
-          src="/carousel_images/image_3.png"
+          src="/carousel_images/image_3.jpg"
           alt="Novembro azul"
           layout="responsive"
           width={ratio.width}

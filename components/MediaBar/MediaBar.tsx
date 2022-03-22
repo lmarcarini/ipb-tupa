@@ -8,22 +8,22 @@ type Props = {};
 
 const MediaBar = (props: Props) => {
   return (
-    <Nav>
+    <>
       <a
         className={styles.icons}
         href="https://www.facebook.com/ipbtupa/"
         aria-label="Facebook"
       >
-        <FontAwesomeIcon icon={faFacebook} height={45} className="me-3" />
+        <FontAwesomeIcon icon={faFacebook} height={45} className="me-3 ms-3" />
       </a>
       <a
         className={styles.icons}
         href="https://www.youtube.com/channel/UCykBMRt8Vo7d5NUDiaR1DHQ"
         aria-label="Youtube"
       >
-        <FontAwesomeIcon icon={faYoutube} height={45} className="me-3" />
+        <FontAwesomeIcon icon={faYoutube} height={45} className="me-3 ms-3" />
       </a>
-    </Nav>
+    </>
   );
 };
 
