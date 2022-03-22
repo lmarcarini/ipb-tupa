@@ -9,7 +9,7 @@ type Props = {};
 
 const Topmenu = (props: Props) => {
   return (
-    <Navbar className="topmenu" style={topmenuStyle} expand="md">
+    <Navbar className="topmenu" style={topmenuStyle} expand="lg">
       <Container>
         <Navbar.Brand>
           <Image
