@@ -11,17 +11,17 @@ const Topmenu = (props: Props) => {
     <Navbar className="topmenu" fixed="top" style={topmenuStyle} expand="md">
       <Container>
         <Navbar.Brand>
-          <Image src="/Logo.Png" height="100" width="100" />
+          <Image src="/logo.png" height="100" width="100" alt="IPB TUPÃ" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav className="me-auto">
-            <Link href="/#">
+            <Link href="/#" passHref>
               <Nav.Link as="a" className="h4" href="/#" style={menuitemStyle}>
                 INÍCIO
               </Nav.Link>
             </Link>
-            <Link href="/#programacao">
+            <Link href="/#programacao" passHref>
               <Nav.Link
                 as="a"
                 className="h4"
@@ -31,7 +31,7 @@ const Topmenu = (props: Props) => {
                 PROGRAMAÇÃO
               </Nav.Link>
             </Link>
-            <Link href="/#local">
+            <Link href="/#local" passHref>
               <Nav.Link
                 as="a"
                 className="h4"
@@ -41,7 +41,7 @@ const Topmenu = (props: Props) => {
                 LOCAL
               </Nav.Link>
             </Link>
-            <Link href="/#contato">
+            <Link href="/#contato" passHref>
               <Nav.Link
                 as="a"
                 className="h4"
@@ -51,7 +51,7 @@ const Topmenu = (props: Props) => {
                 CONTATO
               </Nav.Link>
             </Link>
-            <Link href="/sobre">
+            <Link href="/sobre" passHref>
               <Nav.Link
                 as="a"
                 className="h4"
